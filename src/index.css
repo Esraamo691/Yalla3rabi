@@ -15,7 +15,7 @@
   background: linear-gradient(260deg, #2a1454 0%, #8750f7 100%);
 }
 .btnn {
-  background: linear-gradient(260deg, #dcd0f1 0%, #c4b3e6 100%);
+  background: linear-gradient(260deg, #eee8f8 0%, #e0d4f8 100%);
 }
 * {
   scrollbar-width: thin;
@@ -24,7 +24,7 @@
 .courseBack {
   height: 40vh;
   background-image: linear-gradient(to right, #2c014234, #1615158e, #10015a89),
-    url(./assets/counters-bg.jpg);
+    url(./assets/gizza1.jpg);
   background-size: 100% 100%;
   background-attachment: fixed;
 }
@@ -146,4 +146,15 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+@theme {
+  --breakpoint-2xl: 1400px;
+  --breakpoint-mid: 641px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+}
+@utility container {
+  margin-inline: auto;
 }

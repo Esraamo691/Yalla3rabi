@@ -15,7 +15,6 @@ export default function ModComp({ title, content }) {
 
   return (
     <>
-      {/* زرار الفتح */}
       <Button
         className="text-tiny pe-0 btn"
         color="primary"
@@ -29,7 +28,6 @@ export default function ModComp({ title, content }) {
         </div>
       </Button>
 
-      {/* المودال */}
       <Modal isOpen={isOpen} size="3xl" onClose={onClose}>
         <ModalContent>
           {(onClose) => (

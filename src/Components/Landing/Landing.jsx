@@ -1,7 +1,6 @@
 import Home from "../Home/Home";
 import About from "../About/About";
 import Courses from "../Courses/Courses";
-import Blog from "../Blog/Blog";
 import Voices from "../Voices/Voices";
 
 export default function Landing() {

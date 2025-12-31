@@ -64,7 +64,7 @@ export default function Home() {
 
         {/* CONTENT */}
         <div className="relative z-10 container mx-auto px-6 py-32">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
+          <div className="grid md:grid-cols-1 mid:grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             {/* LEFT */}
             <div>
               <h1 className="text-5xl md:text-6xl font-bold text-[#1F2937] leading-tight">
@@ -95,9 +95,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <div className="aboutSec h-[40vh] flex justify-center items-center text-2xl">
+      <div className="aboutSec h-[40vh] flex justify-center items-center lg:text-2xl text-medium">
         <div className="text-center space-y-3">
-          <p className="text-purple-50 font-bold">
+          <p className="text-purple-50 font-bold ">
             بَعْدَ دِراسَتِي اللغَةَ العَرَبِيَّةَ، اِكْتَشَفْتُ أنَّهُ قَد
             أَصْبَحَ لِفَمي عَقَلٌ ." مايا تسينوفا"
           </p>

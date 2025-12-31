@@ -8,8 +8,8 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import ModComp from "./ModComp";
 export default function Cards() {
   return (
-    <div className=" gap-2 grid grid-cols-12 grid-rows-2 px-8">
-      <Card className="col-span-12 sm:col-span-4 h-75 overflow-hidden">
+    <div className=" gap-2 grid grid-cols-12 grid-rows-2 mid:grid-cols-12 mid:grid-rows-2">
+      <Card className="col-span-12 sm:col-span-4 mid:col-span-6  lg:col-span-4 h-75 overflow-hidden">
         <CardHeader className="absolute z-10 top-1 flex-col items-start!">
           <p className="text-tiny text-gray-400 uppercase font-bold">
             What to Learn
@@ -23,7 +23,7 @@ export default function Cards() {
         />
         <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
           <div>
-            <h4 className="text-black text-shadow-purple-200 text-shadow-md font-bold text-xl">
+            <h4 className="text-black text-shadow-purple-200 text-shadow-mid font-bold lg:text-xl text-md">
               Islamic Courses
             </h4>
           </div>
@@ -48,7 +48,8 @@ export default function Cards() {
           />
         </CardFooter>
       </Card>
-      <Card className="col-span-12 sm:col-span-4 h-75 overflow-hidden">
+
+      <Card className="col-span-12 sm:col-span-4 mid:col-span-6  lg:col-span-4 h-75 overflow-hidden">
         <CardHeader className="absolute z-10 top-1 flex-col items-start!">
           <p className="text-tiny text-gray-400 uppercase font-bold">
             ECA or "Ammeyya masreyya"
@@ -62,7 +63,7 @@ export default function Cards() {
         />
         <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
           <div>
-            <h4 className="text-black text-shadow-purple-200 text-shadow-md font-bold text-xl">
+            <h4 className="text-black text-shadow-purple-200 text-shadow-mid font-bold lg:text-xl text-md">
               Egyptian Colloquial Arabic
             </h4>
           </div>
@@ -87,7 +88,8 @@ export default function Cards() {
           />
         </CardFooter>
       </Card>
-      <Card className="col-span-12 sm:col-span-4 h-75 overflow-hidden">
+
+      <Card className="col-span-12 sm:col-span-4 mid:col-span-6  lg:col-span-4 h-75 overflow-hidden">
         <CardHeader className="absolute z-10 top-1 flex-col items-start!">
           <p className="text-tiny text-gray-400 uppercase font-bold">
             Supercharged
@@ -101,7 +103,7 @@ export default function Cards() {
         />
         <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
           <div>
-            <h4 className="text-black text-shadow-purple-200 text-shadow-md font-bold text-xl">
+            <h4 className="text-black text-shadow-purple-200 text-shadow-mid font-bold lg:text-xl text-md">
               Arabic for Residents
             </h4>
           </div>
@@ -126,9 +128,10 @@ export default function Cards() {
           />
         </CardFooter>
       </Card>
+
       <Card
         isFooterBlurred
-        className="w-full h-75 col-span-12 sm:col-span-5 overflow-hidden"
+        className="w-full h-75 col-span-12 sm:col-span-5 overflow-hidden mid:col-span-6  lg:col-span-5"
       >
         <CardHeader className="absolute z-10 top-1 flex-col items-start"></CardHeader>
         <Image
@@ -139,7 +142,7 @@ export default function Cards() {
         />
         <CardFooter className="absolute bg-black/40 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
           <div>
-            <h4 className="text-black text-shadow-purple-200 text-shadow-md font-bold text-xl">
+            <h4 className="text-black text-shadow-purple-200 text-shadow-mid font-bold lg:text-xl text-md">
               Explore Egypt with Us
             </h4>
           </div>
@@ -164,9 +167,10 @@ export default function Cards() {
           />
         </CardFooter>
       </Card>
+
       <Card
         isFooterBlurred
-        className="w-full h-75 col-span-12 sm:col-span-7 overflow-hidden"
+        className=" h-75 col-span-12 sm:col-span-7 mid:col-span-12 lg:col-span-7 mid:row-span-2 overflow-hidden"
       >
         <CardHeader className="absolute z-10 top-1 flex-col items-start">
           <p className="text-tiny text-gray-400 uppercase font-bold">
@@ -181,7 +185,7 @@ export default function Cards() {
         />
         <CardFooter className="absolute bg-black/40 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
           <div>
-            <h4 className="text-black text-shadow-purple-200 text-shadow-md font-bold text-2xl">
+            <h4 className="text-black text-shadow-purple-200 text-shadow-mid font-bold text-2xl">
               Modern Standard Arabic
             </h4>
           </div>

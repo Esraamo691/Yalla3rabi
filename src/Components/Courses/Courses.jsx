@@ -1,10 +1,10 @@
 import React from "react";
 import Cards from "./Cards";
-import cardImg1 from "../../assets/c2.jpg";
+
 export default function Courses() {
   return (
     <>
-      <div className="container min-h-screen flex-col justify-center items-center btnn py-15 px-8">
+      <div className="container-fluid mx-auto min-h-screen flex-col justify-center items-center btnn py-15 px-8">
         <div className="mb-5">
           <h2 className="text-center text-4xl text-purple-800 font-bold pb-2">
             Our Cources
@@ -19,8 +19,8 @@ export default function Courses() {
         </div>
         <Cards />
       </div>
-      <div className="container courseBack flex justify-center items-center">
-        <div className="text-purple-50 font-bold text-center text-xl space-y-4">
+      <div className="container-fluid courseBack flex justify-center items-center">
+        <div className="text-purple-50 font-bold text-center lg:text-xl text-sm lg:leading-10 leading-6 space-y-4">
           <p>
             كَيْفَ يَسْتَطيعُ الإنْسَانُ أنْ يُقاوِمَ جَمالَ هَذِهِ اللغَةِ،
             ومَنْطِقَها السَّليمَ، وَسِحْرَها الفَريدَ؟ فَجيرانُ العَرَبِ
