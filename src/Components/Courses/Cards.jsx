@@ -23,7 +23,7 @@ export default function Cards() {
         />
         <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
           <div>
-            <h4 className="text-black text-shadow-purple-200 text-shadow-mid font-bold lg:text-xl text-md">
+            <h4 className="text-black text-shadow-purple-200 text-shadow-lg font-bold lg:text-xl text-md">
               Islamic Courses
             </h4>
           </div>
@@ -63,7 +63,7 @@ export default function Cards() {
         />
         <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
           <div>
-            <h4 className="text-black text-shadow-purple-200 text-shadow-mid font-bold lg:text-xl text-md">
+            <h4 className="text-black text-shadow-purple-200 text-shadow-lg font-bold lg:text-xl text-md">
               Egyptian Colloquial Arabic
             </h4>
           </div>
@@ -103,7 +103,7 @@ export default function Cards() {
         />
         <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
           <div>
-            <h4 className="text-black text-shadow-purple-200 text-shadow-mid font-bold lg:text-xl text-md">
+            <h4 className="text-black text-shadow-purple-200 text-shadow-lg font-bold lg:text-xl text-md">
               Arabic for Residents
             </h4>
           </div>
@@ -142,7 +142,7 @@ export default function Cards() {
         />
         <CardFooter className="absolute bg-black/40 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
           <div>
-            <h4 className="text-black text-shadow-purple-200 text-shadow-mid font-bold lg:text-xl text-md">
+            <h4 className="text-black text-shadow-purple-200 text-shadow-lg font-bold lg:text-xl text-md">
               Explore Egypt with Us
             </h4>
           </div>
@@ -185,7 +185,7 @@ export default function Cards() {
         />
         <CardFooter className="absolute bg-black/40 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
           <div>
-            <h4 className="text-black text-shadow-purple-200 text-shadow-mid font-bold text-2xl">
+            <h4 className="text-black text-shadow-purple-200 text-shadow-lg font-bold text-2xl">
               Modern Standard Arabic
             </h4>
           </div>

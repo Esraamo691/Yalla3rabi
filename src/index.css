@@ -21,6 +21,10 @@
   scrollbar-width: thin;
   scrollbar-color: #8750f7 #2a1454;
 }
+.coff {
+  scrollbar-width: thin;
+  scrollbar-color: #f79050 #542a14;
+}
 .courseBack {
   height: 40vh;
   background-image: linear-gradient(to right, #2c014234, #1615158e, #10015a89),
@@ -157,4 +161,11 @@
 }
 @utility container {
   margin-inline: auto;
+}
+
+.coffee {
+  background-image: linear-gradient(to right, #42190134, #1615158e, #3b1e0189),
+    url(./assets/cof7.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
