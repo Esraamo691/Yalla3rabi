@@ -169,3 +169,9 @@
   background-size: 100% 100%;
   background-attachment: fixed;
 }
+.contact {
+  background-image: linear-gradient(to right, #011a4234, #1515168e, #000c1789),
+    url(./assets/c13.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
