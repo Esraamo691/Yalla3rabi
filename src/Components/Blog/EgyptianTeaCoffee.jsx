@@ -4,7 +4,7 @@ import egImg2 from "../../assets/eg3.jpg";
 export default function EgyptianTeaCoffee() {
   return (
     <section className="bg-linear-to-b from-amber-50 to-white py-24">
-      <div className="max-w-7xl mx-auto px-6 lg:space-y-32 space-y-16">
+      <div className="max-w-7xl mx-auto px-6 md:space-y-32 space-y-16">
         {/* Title */}
         <div className="text-center">
           <h2 className="text-5xl font-bold text-amber-900 mb-6">
@@ -17,7 +17,7 @@ export default function EgyptianTeaCoffee() {
         </div>
 
         {/* Section 1 */}
-        <div className="grid lg:grid-cols-2  lg:gap-16 items-center">
+        <div className="grid md:grid-cols-2  md:gap-16 items-center">
           {/* Text */}
           <div className="space-y-6 ">
             <h3 className="text-3xl font-semibold text-amber-900">
@@ -44,7 +44,7 @@ export default function EgyptianTeaCoffee() {
         </div>
 
         {/* Section 2 */}
-        <div className="grid lg:grid-cols-2 lg:gap-16 items-center lg:flex-row-reverse">
+        <div className="grid md:grid-cols-2 md:gap-16 items-center md:flex-row-reverse">
           {/* Image */}
           <div className="h-96 rounded-3xl  flex items-center justify-center text-amber-700 text-lg font-medium">
             <img src={coffetea} className="w-full rounded-3xl" />
@@ -76,7 +76,7 @@ export default function EgyptianTeaCoffee() {
         </div>
 
         {/* Section 3 */}
-        <div className="grid lg:grid-cols-2 lg:gap-16 items-center">
+        <div className="grid md:grid-cols-2 md:gap-16 items-center">
           {/* Text */}
           <div className="space-y-6">
             <h3 className="text-3xl font-semibold text-amber-900">
