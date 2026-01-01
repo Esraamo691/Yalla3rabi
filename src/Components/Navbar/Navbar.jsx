@@ -60,7 +60,7 @@ export default function Navbar() {
   };
 
   const pageLinkClass = ({ isActive }) =>
-    `transition-all duration-300 ${
+    `transition-all text-[#6C63FF] duration-300 ${
       isActive
         ? "text-white bg-[#6C63FF] px-3 py-1 rounded-lg shadow-md"
         : "hover:text-[#6C63FF] hover:scale-105"
@@ -78,7 +78,7 @@ export default function Navbar() {
 
         {/* Desktop Links */}
         <div>
-          <ul className="lg:flex hidden gap-6 font-semibold">
+          <ul className="lg:flex hidden gap-6 font-semibold text-[#6C63FF]">
             {/* Scroll Links */}
             <li
               className={scrollLinkClass("home")}
@@ -130,7 +130,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {open && (
-        <ul className="space-y-2 font-semibold text-right mt-2">
+        <ul className="space-y-2 font-semibold text-right mt-2 text-[#6C63FF]">
           {/* Scroll Links */}
           <li
             className={scrollLinkClass("home")}
