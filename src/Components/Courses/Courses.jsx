@@ -20,7 +20,7 @@ export default function Courses() {
         <Cards />
       </div>
       <div className="container-fluid courseBack flex justify-center items-center">
-        <div className="text-purple-50 font-bold text-center lg:text-xl text-sm lg:leading-10 leading-6 space-y-4">
+        <div className="text-purple-50 font-bold text-center lg:text-xl px-3 lg:px-0 text-sm lg:leading-10 leading-6 space-y-4">
           <p>
             كَيْفَ يَسْتَطيعُ الإنْسَانُ أنْ يُقاوِمَ جَمالَ هَذِهِ اللغَةِ،
             ومَنْطِقَها السَّليمَ، وَسِحْرَها الفَريدَ؟ فَجيرانُ العَرَبِ

@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "animate.css";
 @plugin './hero.js';
 /* Note: You may need to change the path to fit your project structure */
 @source '../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
@@ -174,4 +175,20 @@
     url(./assets/c13.jpg);
   background-size: 100% 100%;
   background-attachment: fixed;
+}
+
+.animate__fadeInDown:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.animate__fadeInDown:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.animate__fadeInDown:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.animate__fadeInDown:nth-child(4) {
+  animation-delay: 0.8s;
+}
+.animate__fadeInDown:nth-child(5) {
+  animation-delay: 1s;
 }

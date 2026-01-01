@@ -10,7 +10,7 @@ export default function Footer() {
           <img src={logoFoot} className="object-cover w-full" />
         </div>
         <div className="lg:w-5/12 space-y-3 w-[80%] mx-auto  ">
-          <p className="flex items-center gap-1 text-3xl cursor-pointer text-purple-950 font-semibold">
+          <p className="flex items-center  mt-5 lg:mt-0 text-lg gap-1 lg:text-3xl cursor-pointer text-purple-950 font-semibold">
             <Link
               className="flex items-center gap-1 hover:text-shadow-amber-100 hover:text-shadow-lg"
               to={

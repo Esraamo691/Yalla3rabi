@@ -25,7 +25,7 @@ export default function Blog() {
           </div>
         </div>
         {/* Coffe & Tea */}
-        <div className=" py-16 relative bg-[#160801]">
+        <div className=" py-16 relative bg-[#160801] ">
           <div className="container px-7 md:px-0 text-gray-300">
             <div className="md:flex mb-8 md:mb-0 md:justify-between">
               <div className="md:w-4/12 w-[80%] mx-auto relative  flex justify-center -top-30">

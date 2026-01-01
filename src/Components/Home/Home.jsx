@@ -87,7 +87,7 @@ export default function Home() {
             </div>
 
             {/* RIGHT IMAGE */}
-            <div className="rounded-3xl bg-white/70 p-10 shadow-xl backdrop-blur-md">
+            <div className="rounded-3xl animate__animated animate__fadeInRight bg-white/70 p-10 shadow-xl backdrop-blur-md">
               <div className=" rounded-2xl bg-[#EEF3FF]">
                 <img src={heroImg} className="h-100 object-cover" />
               </div>
@@ -95,7 +95,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <div className="aboutSec h-[40vh] flex justify-center items-center lg:text-2xl text-medium">
+      <div className="aboutSec h-[40vh] px-5 lg:px-0 flex justify-center items-center lg:text-2xl text-medium">
         <div className="text-center space-y-3">
           <p className="text-purple-50 font-bold ">
             بَعْدَ دِراسَتِي اللغَةَ العَرَبِيَّةَ، اِكْتَشَفْتُ أنَّهُ قَد

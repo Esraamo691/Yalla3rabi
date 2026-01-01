@@ -4,7 +4,7 @@ import { VoiceSlider } from "./VoiceSlider";
 export default function Voices() {
   return (
     <>
-      <div className="py-16">
+      <div className="pt-16">
         <h2 className="text-center text-4xl text-purple-800 font-bold pb-2">
           Testimonials
         </h2>
