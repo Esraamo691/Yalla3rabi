@@ -9,11 +9,14 @@
 .aboutSec {
   background-image: linear-gradient(rgba(0, 0, 0, 0.537)),
     url(./assets/wisdom.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
   background-attachment: fixed;
 }
 .btn {
   background: linear-gradient(260deg, #2a1454 0%, #8750f7 100%);
+}
+.btn2 {
+  background: linear-gradient(260deg, #7b4dd0 0%, #8750f7 100%);
 }
 .btnn {
   background: linear-gradient(260deg, #eee8f8 0%, #e0d4f8 100%);
@@ -30,7 +33,7 @@
   height: 40vh;
   background-image: linear-gradient(to right, #2c014234, #1615158e, #10015a89),
     url(./assets/gizza1.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -167,13 +170,14 @@
 .coffee {
   background-image: linear-gradient(to right, #42190134, #1615158e, #3b1e0189),
     url(./assets/cof7.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
   background-attachment: fixed;
 }
+
 .contact {
   background-image: linear-gradient(to right, #011a4234, #1515168e, #000c1789),
     url(./assets/c13.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
   background-attachment: fixed;
 }
 

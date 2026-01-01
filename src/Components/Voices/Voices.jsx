@@ -1,5 +1,7 @@
 import React from "react";
 import { VoiceSlider } from "./VoiceSlider";
+import BlogSection from "../Blog/BlogSection";
+import ContactCTA from "../Contact/ContactCTA";
 
 export default function Voices() {
   return (
@@ -14,6 +16,8 @@ export default function Voices() {
           </div>
         </div>
       </div>
+      <BlogSection />
+      <ContactCTA />
     </>
   );
 }
