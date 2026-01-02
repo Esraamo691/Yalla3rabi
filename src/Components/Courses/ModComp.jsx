@@ -16,14 +16,14 @@ export default function ModComp({ title, content }) {
   return (
     <>
       <Button
-        className="text-tiny pe-0 btn"
+        className="text-tiny md:py-5 py-4 pe-1 btn"
         color="primary"
         radius="full"
         size="sm"
         onPress={onOpen}
       >
         Get Info About It
-        <div className="flex justify-center items-center size-8 rounded-full bg-white text-blue-600">
+        <div className="flex justify-center items-center md:size-8 size-5 rounded-full bg-white text-purple-600">
           <FaArrowRightLong />
         </div>
       </Button>
